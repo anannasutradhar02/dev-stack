@@ -1,16 +1,23 @@
 import React from 'react';
+import Navbar from './components/nav';
 import ExploreTechnologies from './components/ExploreTechnologies';
-import Nav from './components/nav';
-import Hero from './components/Hero';
+import Footer from './components/footer';
 
-const App = () => {
+function App() {
   return (
-    <>
-      <Nav />
-      <Hero />
-      <ExploreTechnologies />
-    </>
+    <div className="min-h-screen bg-white font-sans text-slate-800">
+     
+      <Navbar />
+
+      
+      <main>
+        <ExploreTechnologies />
+      </main>
+
+      
+      <Footer />
+    </div>
   );
-};
+}
 
 export default App;
