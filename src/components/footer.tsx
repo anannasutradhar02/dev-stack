@@ -9,8 +9,8 @@ const Footer: React.FC = () => {
         {/* Top Section */}
         <div className="flex flex-col md:flex-row justify-between gap-8 mb-10">
           
-          {/* Brand Info */}
-          {/* <div className="max-w-xs">
+          
+           <div className="max-w-xs">
             <div className="flex items-center gap-2 mb-3">
               <img src={logo} alt="Logo" className="w-7 h-7" />
               <span className="text-xl font-bold text-slate-900">
@@ -72,4 +72,4 @@ const Footer: React.FC = () => {
   );
 };
 
-export default Footer; */} */}
+export default Footer; */}
