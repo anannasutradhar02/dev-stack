@@ -1,12 +1,15 @@
 import React from 'react';
+import ExploreTechnologies from './components/ExploreTechnologies';
+import Nav from './components/nav';
+import Hero from './components/Hero';
 
 const App = () => {
   return (
-    <div>
-       <h1 className="text-4xl font-bold text-center mt-10">
-        Dev Stack
-      </h1>
-    </div>
+    <>
+      <Nav />
+      <Hero />
+      <ExploreTechnologies />
+    </>
   );
 };
 
