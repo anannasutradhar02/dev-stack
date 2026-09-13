@@ -58,8 +58,7 @@ const Footer: React.FC = () => {
 
         </div>
 
-        {/* Bottom Bar */}
-        {/* <div className="border-t border-slate-100 pt-6 flex flex-col md:flex-row justify-between items-center text-xs text-slate-400 gap-2">
+       <div className="border-t border-slate-100 pt-6 flex flex-col md:flex-row justify-between items-center text-xs text-slate-400 gap-2">
           <p>© 2026 Dev Stack. All rights reserved.</p>
           <div className="flex gap-4">
             <a href="#">Privacy</a>
@@ -72,4 +71,4 @@ const Footer: React.FC = () => {
   );
 };
 
-export default Footer; */}
+export default Footer;
